@@ -1,0 +1,38 @@
+22F-XXXX_Web_Assignment_2/
+├── public/                      # Frontend assets
+│   ├── css/                     # Your CSS files here
+│   ├── js/                      # JavaScript files
+│   │   ├── common.js            # Shared scripts
+│   │   ├── admin/               # Admin JS files
+│   │   ├── student/             # Student JS files
+│   │   └── auth.js              # Login and registration scripts
+│   ├── images/                  # Static images
+│   │   └── logo.png
+│   └── index.html               # Entry point (login page)
+│
+├── views/                       # EJS templates for dynamic pages
+│   ├── admin/                   # Admin views
+│   ├── student/                 # Student views
+│   ├── auth/
+│   │   ├── login.ejs            # Login form
+│   │   └── error.ejs            # Error page
+│
+├── routes/                      # Express route handlers
+│   └── // Your routes here
+│
+├── models/                      # MongoDB schemas
+│   └── // Your model files here
+│
+├── controllers/                 # Application logic
+│   └── // Your controllers here
+│
+├── middleware/                  # Access control and validation
+│   └── // Your middlewares here
+│
+├── config/                      # MongoDB connection setup
+│   └── db.js
+│
+├── .env                         # Environment variables
+├── server.js                    # Express server entry point
+├── package.json                 # Dependencies and scripts
+├── README.md                    # Project overview and setup instructions

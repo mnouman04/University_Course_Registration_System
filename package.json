@@ -1,0 +1,25 @@
+{
+  "name": "assignment-2",
+  "version": "1.0.0",
+  "description": "Assignment 2 on node js and connectivity with the frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnouman04/University_Course_Registration_System.git"
+  },
+  "author": "Muhammad Nouman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnouman04/University_Course_Registration_System/issues"
+  },
+  "homepage": "https://github.com/mnouman04/University_Course_Registration_System#readme",
+  "dependencies": {
+    "env": "^0.0.2",
+    "express": "^4.21.2",
+    "mongodb": "^6.14.2",
+    "mongoose": "^8.12.1"
+  }
+}
